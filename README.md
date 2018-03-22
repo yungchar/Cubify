@@ -5,6 +5,7 @@ This "program" is a function that does this:
 
 input: "hahayeet"
 output: 
+```
        teeyahah
       e      aa
      e      h h
@@ -20,5 +21,6 @@ y      a  a
 e      h h
 e      aa
 teeyahah
+```
 
 Not much else to say.
