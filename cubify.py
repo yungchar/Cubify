@@ -9,6 +9,11 @@ def cubify(s):
     A  TT
     RATS
     '''
+
+    # Advanced crash prevention techniques
+    if (len(s) == 0):
+        return ""
+
     # Initialize blank string
     result = ""
 
@@ -52,3 +57,5 @@ def cubify(s):
     result += s.replace("", " ")[::-1][1:]
 
     return result
+
+print(cubify(input("Input a string. \n")))
