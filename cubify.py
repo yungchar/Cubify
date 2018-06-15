@@ -58,4 +58,25 @@ def cubify(s):
 
     return result
 
-print(cubify(input("Input a string. \n")))
+# badvarnames.jpg
+r = True
+
+# Basically code to make cubes over and over
+while(r):
+    s = input("Input a string. \n")
+    print(cubify(s))
+
+    # This is shit code I know
+    # But I'm lazy
+    r = None
+    
+    while (r == None):
+        r = input("Generate another cube? (Y/N) \n")
+        
+        if (r == "y" or r == "Y"):
+            r = True
+        elif (r == "n" or r == "N"):
+            r = False
+        else:
+            print("Please enter a valid answer.")
+            r = None
